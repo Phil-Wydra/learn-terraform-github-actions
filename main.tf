@@ -12,10 +12,10 @@ terraform {
   required_version = "~> 1.0"
 
   backend "remote" {
-    organization = "AWS_ACCESS_KEY_ID"
+    organization = "ACG-Terraform-Demos-pj"
 
     workspaces {
-      name = "AWS_SECRET_ACCESS_KEY"
+      name = "demo-github-actions"
     }
   }
 }
